@@ -5,7 +5,7 @@ def f(x):
   return math.sqrt(9-x**2)-math.exp(x)/8
 
 #Definição dos pontos 
-a = 0
+a = 2
 b = 3
 
 #Precisão
