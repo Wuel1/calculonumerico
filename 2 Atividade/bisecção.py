@@ -22,5 +22,6 @@ while b-a>erro:
     a = M
   k = k+1
 
+print("----------BISSECÇÃO-------------")
 print('A raiz encontrada foi de ' , (a+b)/2)
 print('O número de iterações foi:', k)

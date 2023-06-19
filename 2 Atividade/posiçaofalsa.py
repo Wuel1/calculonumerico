@@ -24,5 +24,6 @@ while abs(f(M))>erro:
     a = M
   k = k+1
 
+print("-----------POSIÇÃO FALSA-------------")
 print('A raiz encontrada foi de' , M)
 print('O número de iterações foi:', k)
