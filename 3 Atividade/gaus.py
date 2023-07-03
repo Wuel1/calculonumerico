@@ -37,7 +37,7 @@ def subs_reversa(A_t,b_t):
 
     return x # retorna a solução do SL A*x = b
 
-def matriz_de_Hilbert(n):
+def Hilbert(n):
 
   A = np.zeros((n,n))
 
@@ -57,7 +57,7 @@ def matriz_de_Hilbert(n):
   # A é a matriz de Hilbert 
   # B é o vetor de termos independentes
 
-A, B = matriz_de_Hilbert(10)
+A, B = Hilbert(10)
 A_t, B_t = gauss(A, B)
 
 print(A_t)
